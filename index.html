@@ -54,10 +54,11 @@
       <a class="blue-onHover" href="#projects"><img src="assets/icons/DoubleDownArrow.png" alt="Icone de seta dupla apontando para baixo"></a>
     </header>
 
-    <main>
+    <main class="flex-col">
+      <hr class="divider">
       <section id="projects" class="flex-col">
         <header>
-          <h3 class="font-subtitle subtitle purple">Meu trabalho</h3>
+          <h3 class="font-subtitle subtitle red">Meu trabalho</h3>
           <h2 class="font-title title-md gray-100">Veja os meus projetos em destaque</h2>
         </header>
 
@@ -131,32 +132,43 @@
           </a>
 
         </div>
+
+        <a class="blue-onHover" href="#services"><img src="assets/icons/DoubleDownArrow.png" alt="Icone de seta dupla apontando para baixo"></a>
       </section>
+
+      <hr class="divider">
 
       <section id="services" class="flex-col">
         <header>
-          <h3 class="font-subtitle subtitle purple">Meus serviços</h3>
+          <h3 class="font-subtitle subtitle red">Meus serviços</h3>
           <h2 class="font-title title-md gray-100">Como posso ajudar o seu negócio</h2>
         </header>
 
-        <div>
-          <div class="card-service">
+        <div class="flex-row">
+          <div class="card-service flex-col">
             <img src="assets/icons/Devices.svg" alt="Icone de Dispositivos">
-            <h4 class="font-title title-sm gray-100">Websites e Aplicativos </h4>
-            <p class="font-text text-sm gray-200">Desenvolvimento de interfaces</p>
+            <div>
+              <h4 class="font-title title-sm gray-100">Websites e Aplicativos </h4>
+              <p class="font-text text-sm gray-200">Desenvolvimento de interfaces</p>              
+            </div>
           </div>
 
-          <div class="card-service">
+          <div class="card-service flex-col">
             <img src="assets/icons/HardDrives.svg" alt="Icone de HD">
-            <h4 class="font-title title-sm gray-100">API e banco de dados</h4>
-            <p class="font-text text-sm gray-200">Criação de serviços do sistema </p>
+            <div>
+              <h4 class="font-title title-sm gray-100">API e banco de dados</h4>
+              <p class="font-text text-sm gray-200">Criação de serviços do sistema </p>              
+            </div>
           </div>
         </div>
+
+        <a class="blue-onHover" href="#contact"><img src="assets/icons/DoubleDownArrow.png" alt="Icone de seta dupla apontando para baixo"></a>
       </section>
 
-      <section id="contact">
+      <section id="contact" class="flex-col">
+        <hr class="divider">
         <header>
-          <h3 class="font-subtitle subtitle red">Contato</h3>
+          <h3 class="font-subtitle subtitle purple">Contato</h3>
           <h2 class="font-title title-md gray-100">Gostou do meu trabalho?</h2>
           <p class="font-text text-md gray-200">Entre em contato ou acompanhe as minhas redes sociais!</p>
         </header>

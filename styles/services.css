@@ -1,3 +1,36 @@
 #services{
   background-color: var(--gray-600);
+  
+  padding: 88px 12% 60px 12%;
+  align-items: center;
+  text-align: center;
+  gap: 56px;
+
+  &>div{
+    gap: 24px;
+  }
+
+  .card-service{
+    width: 280px;
+    padding: 20px;
+
+    align-items: flex-start;
+    gap: 20px;
+
+    border: 2px solid var(--gray-400);
+    border-radius: 12px;
+    outline: 2px solid var(--gray-500);
+    outline-offset: 2px;
+
+    &>div{
+      margin-top: 8px;
+      text-align: left;
+    }
+
+    img{
+      width: 48px;
+      height: 48px;
+    }
+  }
 }
+
