@@ -60,5 +60,7 @@
 .gray-500{ color: var(--gray-500); }
 .gray-600{ color: var(--gray-600); }
 
-
+.blue-onHover:hover{
+  filter: brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(1750%) hue-rotate(185deg) brightness(98%) contrast(101%);
+}
 
