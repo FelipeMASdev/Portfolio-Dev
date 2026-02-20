@@ -9,18 +9,12 @@
    flex-direction: column;
 }
 
-.font-title{
-  font-family: var(--font-family-title);
-}
+.font-title{ font-family: var(--font-family-title); }
 
-.font-subtitle{
-  font-family: var(--font-family-subtitle);
-}
+.font-subtitle{ font-family: var(--font-family-subtitle); }
 
-.font-text{
- font-family: var(--font-family-text);
-}
-
+.font-text{ font-family: var(--font-family-text); }
+  
 .title-lg{
   font: var(--title-lg);
   color: var(--gray-100);
@@ -31,21 +25,13 @@
   color: var(--gray-100);
 }
 
-.title-sm{
-  font: var(--title-sm);
-}
+.title-sm{ font: var(--title-sm); }
 
-.subtitle{
-  font: var(--subtitle);
-}
+.subtitle{ font: var(--subtitle); }
 
-.text-md{
-  font: var(--text-md);
-}
+.text-md{ font: var(--text-md); }
 
-.text-sm{
-  font: var(--text-sm);
-}
+.text-sm{ font: var(--text-sm); }
 
 .red{ color: var(--red); }
 .purple{ color: var(--purple); }
@@ -66,7 +52,7 @@
 
 .divider{
   align-self: center;
-  width: 90%;
+  width: 80%;
   border: none;
   border-top: 1px solid var(--purple);
 }

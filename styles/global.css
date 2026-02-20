@@ -44,7 +44,6 @@ a{
 .container{
   width: 1360px;
   margin-inline: auto;
-  padding-block: 0px 200px;
   background-color: var(--gray-500);
 }
 
@@ -56,7 +55,12 @@ a{
   background: #2b3040;  
   padding: 8px 16px;
   border-radius: 120px;
+
+  border: 1px solid var(--gray-500);
+  outline: 1px solid var(--gray-600);
+  outline-offset: 1px;
   
+  color: rgb(135, 142, 161);
   img {
     width: 24px;
     aspect-ratio: 1/1;
@@ -71,4 +75,47 @@ a{
   background-color: var(--gray-500);
   border-radius: 50%;
   margin-inline: 4px;
+}
+
+.contact-button{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  background-color: var(--gray-400);  
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid var(--gray-300);
+  
+  &:hover{
+    border-color: var(--blue);
+    
+    span{
+      color: var(--blue);
+    }
+
+    img{
+      filter: brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(1750%) hue-rotate(185deg) brightness(98%) contrast(101%);
+    }
+    
+  } 
+
+  span{
+    font: var(--text-md);
+    font-weight: 500;
+    color: var(--gray-200);
+  }
+
+  img {
+    width: 28px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+  }
+
+  img:nth-of-type(2){
+    width: 20px;
+    margin-left: auto;
+  }
+
 }

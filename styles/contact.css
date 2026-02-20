@@ -1,7 +1,26 @@
 #contact{
-  height: 790px;
+  padding: 128px 12% 200px 12%;
   background-image: url(../assets/Background_Contacts.png);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  gap: 48px;
+
+  header{
+    width: 420px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+  a{
+    width: 100%;
+  }
+  &>div{
+    align-self: center;
+    align-items: center;
+    gap: 16px;
+    width: 400px;
+  }
 }
